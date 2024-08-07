@@ -66,22 +66,31 @@ This project involves a read-based metagenomics analysis applied to taxonomic an
 ## Requirements
 
 - **FastQC**: Version 0.11.3
+  - **Purpose**: Quality control tool for high-throughput sequencing data, used to assess the quality of raw sequence reads.
+
 - **Trimmomatic**: Version 0.38
+  - **Purpose**: Tool for trimming Illumina sequence data, used to remove adapter sequences and low-quality bases from sequencing reads.
+
 - **DIAMOND**: Version 2.0.9
+  - **Purpose**: Fast alignment tool for comparing short DNA sequences to large databases, used for sequence alignment and similarity searching.
+
 - **MEGAN**: Version 6.23.0
+  - **Purpose**: Software for the interactive exploration and analysis of large-scale microbiome sequencing data, used for taxonomic and functional profiling.
+
 - **R Studio**: Version 1.4.1717
-- Summary of ***R Packages Used***:
-- ***raster***: Used for handling and analyzing raster data to visualize reef locations on maps.
-- ***tidyverse***: A suite of R packages for data manipulation, visualization, and analysis.
-- ***ggspatial***: Provides tools for visualizing spatial data with ggplot2.
-- ***sf***: Provides simple features for R, enabling spatial vector data handling.
-- ***dataaimsr***: Facilitates access and analysis of AIMS data.
-- ***gisaimsr***: Provides tools for GIS data analysis within the AIMS framework.
-- ***ggrepel***: Enhances ggplot2 plots by adding text labels with automatic repelling.
-- ***phyloseq***: Provides tools for analyzing and visualizing high-throughput microbiome census data.
-- ***mixOmics***: Implements methods for multivariate analysis, including Principal Component Analysis (PCA) and integration of different data types.
-- ***microbiome***: Provides tools for analyzing microbiome data, including data normalization and diversity analysis.
-- ***vegan***: Offers functions for community ecology analysis, including distance measures and ordination methods.
+
+  - Summary of ***R Packages Used***:
+    - ***raster***: Used for handling and analyzing raster data to visualize reef locations on maps.
+    - ***tidyverse***: A suite of R packages for data manipulation, visualization, and analysis.
+    - ***ggspatial***: Provides tools for visualizing spatial data with ggplot2.
+    - ***sf***: Provides simple features for R, enabling spatial vector data handling.
+    - ***dataaimsr***: Facilitates access and analysis of AIMS data.
+    - ***gisaimsr***: Provides tools for GIS data analysis within the AIMS framework.
+    - ***ggrepel***: Enhances ggplot2 plots by adding text labels with automatic repelling.
+    - ***phyloseq***: Provides tools for analyzing and visualizing high-throughput microbiome census data.
+    - ***mixOmics***: Implements methods for multivariate analysis, including Principal Component Analysis (PCA) and integration of different data types.
+    - ***microbiome***: Provides tools for analyzing microbiome data, including data normalization and diversity analysis.
+    - ***vegan***: Offers functions for community ecology analysis, including distance measures and ordination methods.
 
 ## Installation
 
