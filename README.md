@@ -35,8 +35,27 @@ This project involves a read-based metagenomics analysis applied to taxonomic an
 
 ## Installation
 
-To get started with the analysis, follow these steps:
+1. Download and install FastQC, Trimmomatic, DIAMOND, MEGAN, and R Studio from the provided links.
+2. Follow the instructions in the `scripts/` directory to run the analysis pipeline.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repository.git
+## Usage
+
+Detailed instructions on running the analysis scripts and processing the data are provided in the `scripts/` directory. Ensure that all dependencies are correctly installed and configured.
+
+## References
+
+- Andrews, S. (2010). FastQC: A quality control tool for high throughput sequence data. [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina sequence data. *Bioinformatics*, 30(15), 2114-2120. [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
+- Buchfink, B., Xie, C., & Huson, D. H. (2015). DIAMOND: Fast alignment of short DNA sequences to large databases. *Bioinformatics*, 31(16), 3057-3064. [DIAMOND](https://github.com/bbuchfink/diamond)
+- Huson, D. H., Mitra, S., Ruscheweyh, H. J., Weber, N., & Schuster, S. C. (2016). MEGAN Community Edition - Interactive exploration and analysis of large-scale microbiome sequencing data. *PLOS Computational Biology*, 12(6), e1004957. [MEGAN](http://www.megasoftware.net/)
+- R Core Team (2023). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. [R](https://www.r-project.org/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or issues, please contact Marko Terzin at:
+m.terzin@aims.gov.au
+marko.terzin@my.jcu.edu.au
