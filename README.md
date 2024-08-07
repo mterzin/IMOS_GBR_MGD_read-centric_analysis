@@ -70,6 +70,7 @@ This project involves a read-based metagenomics analysis applied to taxonomic an
 - **DIAMOND**: Version 2.0.9
 - **MEGAN**: Version 6.23.0
 - **R Studio**: Version 1.4.1717
+- 
 
 ## Installation
 
