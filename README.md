@@ -1,8 +1,46 @@
-# Seawater Microbes in Reef Monitoring
+# Seawater Microbes in Reef Monitoring: Gene Content is a Strong Predictor of Water Chemistry Across the Great Barrier Reef
+
+## Authors and Affiliations
+
+- **Marko Terzin**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
+  College of Science and Engineering, James Cook University, Townsville, 4811  
+  AIMS@JCU, James Cook University, Townsville QLD 4811
+
+- **Steven J. Robbins**  
+  Australian Centre for Ecogenomics, University of Queensland, St Lucia, QLD 4072
+
+- **Sara C. Bell**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810
+
+- **Kim-Anh Lê Cao**  
+  Melbourne Integrative Genomics and School of Mathematics and Statistics, University of Melbourne, Melbourne, Parkville VIC 3052
+
+- **Renee K. Gruber**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810
+
+- **Pedro R. Frade**  
+  Natural History Museum Vienna, 1010 Vienna, Austria
+
+- **Nicole S. Webster**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
+  Australian Centre for Ecogenomics, University of Queensland, St Lucia, QLD 4072  
+  Institute for Marine and Antarctic Studies, University of Tasmania, TAS, 7001
+
+- **Yun Kit Yeoh**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
+  AIMS@JCU, James Cook University, Townsville QLD 4811
+
+- **David G. Bourne**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
+  College of Science and Engineering, James Cook University, Townsville, 4811  
+  AIMS@JCU, James Cook University, Townsville QLD 4811
+
+- **Patrick W. Laffy**  
+  Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
+  AIMS@JCU, James Cook University, Townsville QLD 4811
 
 This repository contains the code and data associated with the paper:
-
-**Seawater Microbes in Reef Monitoring: Gene Content is a Strong Predictor of Water Chemistry Across the Great Barrier Reef**
 
 ## Overview
 
