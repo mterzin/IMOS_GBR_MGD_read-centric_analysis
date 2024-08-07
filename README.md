@@ -1,5 +1,5 @@
 # This repository contains the code and data associated with the paper:
-## Seawater Microbes in Reef Monitoring: Gene Content is a Strong Predictor of Water Chemistry Across the Great Barrier Reef
+## Gene Content of Seawater Microbes is a Strong Predictor of Water Chemistry Across the Great Barrier Reef
 
 ### Authors and Affiliations
 
