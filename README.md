@@ -1,6 +1,7 @@
-# Seawater Microbes in Reef Monitoring: Gene Content is a Strong Predictor of Water Chemistry Across the Great Barrier Reef
+# This repository contains the code and data associated with the paper:
+## Seawater Microbes in Reef Monitoring: Gene Content is a Strong Predictor of Water Chemistry Across the Great Barrier Reef
 
-## Authors and Affiliations
+### Authors and Affiliations
 
 - **Marko Terzin**  
   Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
@@ -40,7 +41,6 @@
   Australian Institute of Marine Science, PMB no3 Townsville MC, Townsville QLD 4810  
   AIMS@JCU, James Cook University, Townsville QLD 4811
 
-This repository contains the code and data associated with the paper:
 
 ## Overview
 
