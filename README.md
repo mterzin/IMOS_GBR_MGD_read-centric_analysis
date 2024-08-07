@@ -70,7 +70,18 @@ This project involves a read-based metagenomics analysis applied to taxonomic an
 - **DIAMOND**: Version 2.0.9
 - **MEGAN**: Version 6.23.0
 - **R Studio**: Version 1.4.1717
-- 
+- Summary of ***R Packages Used***:
+- ***raster***: Used for handling and analyzing raster data to visualize reef locations on maps.
+- ***tidyverse***: A suite of R packages for data manipulation, visualization, and analysis.
+- ***ggspatial***: Provides tools for visualizing spatial data with ggplot2.
+- ***sf***: Provides simple features for R, enabling spatial vector data handling.
+- ***dataaimsr***: Facilitates access and analysis of AIMS data.
+- ***gisaimsr***: Provides tools for GIS data analysis within the AIMS framework.
+- ***ggrepel***: Enhances ggplot2 plots by adding text labels with automatic repelling.
+- ***phyloseq***: Provides tools for analyzing and visualizing high-throughput microbiome census data.
+- ***mixOmics***: Implements methods for multivariate analysis, including Principal Component Analysis (PCA) and integration of different data types.
+- ***microbiome***: Provides tools for analyzing microbiome data, including data normalization and diversity analysis.
+- ***vegan***: Offers functions for community ecology analysis, including distance measures and ordination methods.
 
 ## Installation
 
@@ -88,6 +99,17 @@ Detailed instructions on running the analysis scripts and processing the data ar
 - Buchfink, B., Xie, C., & Huson, D. H. (2015). DIAMOND: Fast alignment of short DNA sequences to large databases. *Bioinformatics*, 31(16), 3057-3064. [DIAMOND](https://github.com/bbuchfink/diamond)
 - Huson, D. H., Mitra, S., Ruscheweyh, H. J., Weber, N., & Schuster, S. C. (2016). MEGAN Community Edition - Interactive exploration and analysis of large-scale microbiome sequencing data. *PLOS Computational Biology*, 12(6), e1004957. [MEGAN](http://www.megasoftware.net/)
 - R Core Team (2023). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. [R](https://www.r-project.org/)
+- McMurdie, P.J., & Holmes, S. (2013). *phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data*. [CRAN Package](https://cran.r-project.org/package=phyloseq)
+- Pebesma, E. (2018); Pebesma, E., & Bivand, R. (2023). *sf: Simple Features for R*. [CRAN Package](https://cran.r-project.org/package=sf)
+- Hijmans, R.J. (2024). *raster: Geographic Data Analysis and Modeling*. [CRAN Package](https://cran.r-project.org/package=raster)
+- Open-AIMS. (2024). *gisaimsr: GIS Tools for AIMS*. [GitHub Repository](https://github.com/open-AIMS/gisaimsr)
+- Barneche, D.R., et al. (2021). *dataaimsr: Data Management for AIMS*. [CRAN Package](https://cran.r-project.org/package=dataaimsr)
+- Dunnington, D., et al. (2023). *ggspatial: Spatial Data Visualization*. [CRAN Package](https://cran.r-project.org/package=ggspatial)
+- Wickham, H., et al. (2019). *tidyverse: Easily Install and Load the 'Tidyverse'*. [CRAN Package](https://cran.r-project.org/package=tidyverse)
+- Slowikowski, K., et al. (2024). *ggrepel: Automatically Reposition Text Labels*. [CRAN Package](https://cran.r-project.org/package=ggrepel)
+- Lahti, L., & Shetty, S. (2017). *microbiome: Microbiome Analysis*. [CRAN Package](https://cran.r-project.org/package=microbiome)
+- Rohart, F., et al. (2017). *mixOmics: A Comprehensive R Package for Multi-Omics Data Analysis*. [CRAN Package](https://cran.r-project.org/package=mixOmics)
+- Oksanen, J., et al. (2010). *vegan: Community Ecology Package*. [CRAN Package](https://cran.r-project.org/package=vegan)
 
 ## License
 
