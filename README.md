@@ -60,8 +60,19 @@ This project involves a read-based metagenomics analysis applied to taxonomic an
    - Resulting DIAMOND files (in daa format) were imported into **MEGAN** (version 6.23.0) for community profiling. ([MEGAN](http://www.megasoftware.net/))
    - Raw microbial abundance counts were exported from MEGAN for genus-level taxonomic and functional (GO-terms) composition.
 
-4. **Data Analysis:**
-   - The exported data were imported into **R Studio** (version 1.4.1717) for further analysis and visualization. ([R Studio](https://posit.co/download/rstudio-desktop/#download))
+4. **Data Processing in R**:
+   - Data was imported into **R Studio** (version 1.4.1717) using the **phyloseq** R package.
+   - Further filtering steps included:
+     1. Removal of non-annotated reads.
+     2. Exclusion of reads annotated as eukaryotic or viral.
+     3. Removal of prokaryotic reads annotated only to the Domain level (Bacteria or Archaea), leaving 48% of the total dataset.
+     4. Exclusion of rare/spurious reads (relative abundance < 0.0001%), resulting in 618 of the initial 1179 prokaryotic taxa for the final microbial taxonomy dataset. For gene annotation, 5015 GO terms were retained.
+
+5. **Normalization and Visualization**:
+   - Microbial abundance data was Center-Log-Ratio (CLR) normalized using the **microbiome** R package to address sparsity and compositional nature of metagenomic data. Pseudo counts were introduced prior to CLR normalization as log 0 is undefined.
+   - CLR-transformed counts or relative abundance data were used for downstream statistical analysis and visualization in R Studio.
+   - Final composite plots were created using **Inkscape** (version 0.92.5).
+
 
 ## Requirements
 
